@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Snow, balloons and more in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-13 13:20+0100\n"
+"PO-Revision-Date: 2010-12-10 16:20-0800\n"
+"Last-Translator: Carlos <carlosterrym@yahoo.com>\n"
+"Language-Team: Gianni Diurno | gidibao.net <gidibao[at]gmail[dot]com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin.php:43
+#: inc/admin.php:108
+msgid "Snow and more"
+msgstr "Nieve y mas"
+
+#: inc/admin.php:113
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/admin.php:121
+msgid "Show how many snowflakes (or other objects)?"
+msgstr "¿Cuantos copos de nieve (o cualquier otro objeto) mostrar?"
+
+#: inc/admin.php:142
+msgid "Which of these flakes, drops, leaves and balloons do you want? "
+msgstr "¿Cuáles de estos copos, gotas, hojas y globos deseas? "
+
+#: inc/admin.php:156
+msgid "By the way if you have nice snowflakes, drops, leaves etc. feel free to submit them to me if you made them yourself."
+msgstr "A propósito, si posees copos de nieve, gotas, hojas, etc. simpaticas, no dudes en enviarmelas, siempre y cuando tu las hayas creado."
+
+#: inc/admin.php:163
+msgid "Use the balloon mode? This will make all images float upwards."
+msgstr "¿Utilizar el modo del globo? Esto ocasionará que todas las imágenes floten hacia arriba."
+
+#: inc/admin.php:171
+#: inc/admin.php:326
+msgid "Yes"
+msgstr "Sì"
+
+#: inc/admin.php:175
+#: inc/admin.php:330
+msgid "No"
+msgstr "No"
+
+#: inc/admin.php:182
+#: inc/admin.php:216
+#: inc/admin.php:337
+msgid "Save changes"
+msgstr "Guardar modificaciones"
+
+#: inc/admin.php:185
+msgid "Custom images"
+msgstr "Imágenes personalizadas"
+
+#: inc/admin.php:187
+msgid "If you add your own images to the <tt>pics</tt> directory they will appear in the table above. To have them disappear properly when they are leaving the visible part of the browser window you may have to change the <tt>flakesize</tt> value."
+msgstr "Si agregas tus propias imágenes al directorio de <tt>pics</tt> , estas aparecerán en el tablero de arriba. Para que desaparezcan correctamente cuando están saliendo de la parte visible de la ventana del hojeador, es posible que necesites modificar el valor de <tt>Dimension del copo</tt>."
+
+#: inc/admin.php:189
+msgid "Make sure the value is bigger than your highest image's height and broadest image's width."
+msgstr "Cerciórese que el valor sea mayor al de su imagen mas alta y al de su imagen mas ancha. "
+
+#: inc/admin.php:196
+msgid "Flakesize?"
+msgstr "¿Dimension del copo?"
+
+#: inc/admin.php:219
+msgid "Pro settings"
+msgstr "Ajustes avanzados"
+
+#: inc/admin.php:225
+msgid "Stop snow after how many seconds?"
+msgstr "¿Luego de cuantos segundos detener la nieve?"
+
+#: inc/admin.php:235
+msgid "Overall speed (timeout in milliseconds between moves)? "
+msgstr "¿Velocidad total (Pausa en milesimas de segundo entre los movimientos)? "
+
+#: inc/admin.php:255
+msgid "Maximum Wind strength "
+msgstr "Maxima fuerza del viento"
+
+#: inc/admin.php:275
+msgid "Maximum Falling speed"
+msgstr "Maxima velocidad de caida"
+
+#: inc/admin.php:295
+msgid "Show snowflakes only on pages whose URI contains"
+msgstr "Mostrar los copos de nieve solo en paginas en cuyos URI contenga"
+
+#: inc/admin.php:305
+msgid "Show snowflakes only if the URI given above and the URI are equal ($_SERVER['REQUEST_URI'] == URI string)?"
+msgstr "Mostrar los copos de nieve solo si el URI mostrado arriba y el URI son iguales ($_SERVER['REQUEST_URI'] == URI string)?"
+
+#: inc/admin.php:318
+msgid "Hide the &quot;Powered by&quot; message in the footer?"
+msgstr "¿Esconder el mensaje de &quot;Impulsado por&quot; del pie de página?"
+
+#: inc/nkuttler.php:26
+msgid "Do you like this plugin?"
+msgstr "¿Te gusta este plugin?"
+
+#: inc/nkuttler.php:34
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Calificalo</a>"
+
+#: inc/nkuttler.php:37
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Visita</a> su pagina"
+
+#: inc/nkuttler.php:40
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Suscribete</a> al feed RSS"
+
+#: inc/nkuttler.php:43
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Donación</a>!"
+
+#: inc/nkuttler.php:46
+msgid "About the author"
+msgstr "Acerca del autor"
+
+#: inc/nkuttler.php:49
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mi <a href=\"%s\">bitácora</a>"
+
+#: inc/nkuttler.php:52
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Suscribete al feed <a href=\"%s\">RSS</a> o al <a href=\"%s\">email</a>"
+
+#: inc/nkuttler.php:56
+msgid "My other plugins"
+msgstr "Otros plugins mios"
+
+#: inc/nkuttler.php:57
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.elquintosuyo.com\">Traducido por Carlos Terry</a>"
+
+#: inc/page.php:114
+#, php-format
+msgid "<a href=\"%s\">Wordpress balloons</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr "<a href=\"%s\">Wordpress balloons</a> impulsado por <a href=\"%s\">nksnow</a>"
+
+#: inc/page.php:116
+#, php-format
+msgid "<a href=\"%s\">Wordpress snowstorm</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr "<a href=\"%s\">Wordpress snowstorm</a> impulsado por <a href=\"%s\">nksnow</a>"
+
+#~ msgid "Snow, balloons and more"
+#~ msgstr "Snow, balloons and more"
+
+#~ msgid "http://www.nkuttler.de/wordpress/nksnow/"
+#~ msgstr "http://www.nkuttler.de/wordpress/nksnow/"
+
+#~ msgid ""
+#~ "Snow falling down your wordpress blog. See the <a href=\"http://www."
+#~ "nkuttler.de/nksnow/\">live demo</a>."
+#~ msgstr ""
+#~ "Snow falling down your wordpress blog. See the <a href=\"http://www."
+#~ "nkuttler.de/nksnow/\">live demo</a>."
+
+#~ msgid "Nicolas Kuttler"
+#~ msgstr "Nicolas Kuttler"
+
+#~ msgid "http://www.nkuttler.de/"
+#~ msgstr "http://www.nkuttler.de/"
+
+#~ msgid ""
+#~ "If you have any problems using this plugin, please have a look at the <a "
+#~ "href=\"%s\">FAQ</a>."
+#~ msgstr ""
+#~ "Visitare la pagina delle <a href=\"%s\">FAQ</a> in caso di problemi con "
+#~ "l'utilizzo del plugin."

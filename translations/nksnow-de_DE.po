@@ -1,0 +1,218 @@
+# German translations for PACKAGE package
+# German messages for PACKAGE.
+# Copyright (C) 2009 Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# Nicolas Kuttler <wp@nicolaskuttler.de>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/nksnow\n"
+"POT-Creation-Date: 2010-11-12 22:36+0100\n"
+"PO-Revision-Date: 2009-10-16 12:28+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin.php:43 inc/admin.php:108
+msgid "Snow and more"
+msgstr "Schnee und mehr"
+
+#: inc/admin.php:113
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/admin.php:121
+msgid "Show how many snowflakes (or other objects)?"
+msgstr "Wie viele Schneeflocken (oder andere Objekte) sollen angezeigt werden?"
+
+#: inc/admin.php:142
+msgid "Which of these flakes, drops, leaves and balloons do you want? "
+msgstr "Welche dieser Flocken, Tropfen, Blätter und Ballons möchten Sie? "
+
+#: inc/admin.php:156
+msgid ""
+"By the way if you have nice snowflakes, drops, leaves etc. feel free to "
+"submit them to me if you made them yourself."
+msgstr ""
+"Übrigens, wenn Sie hübsche Schneeflocken, Tropfen, Blätter etc. haben dann "
+"schicken Sie sie mir bitte zu falls Sie sie selbst erstellt hast."
+
+#: inc/admin.php:163
+msgid "Use the balloon mode? This will make all images float upwards."
+msgstr "Den Ballon-Modus benutzen? Er lässt die Bilder aufwärts schweben."
+
+#: inc/admin.php:171 inc/admin.php:326
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/admin.php:175 inc/admin.php:330
+msgid "No"
+msgstr "Nein"
+
+#: inc/admin.php:182 inc/admin.php:216 inc/admin.php:337
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: inc/admin.php:185
+msgid "Custom images"
+msgstr "Eigene Bilder"
+
+#: inc/admin.php:187
+msgid ""
+"If you add your own images to the <tt>pics</tt> directory they will appear "
+"in the table above. To have them disappear properly when they are leaving "
+"the visible part of the browser window you may have to change the "
+"<tt>flakesize</tt> value."
+msgstr ""
+"Wenn Sie Ihre eigenen Bilder in das <tt>pics</tt> Verzeichnis legst werden "
+"sie in der obigen Tabelle erscheinen. Damit sie am Rand des sichtbaren "
+"Bereichs ordentlich ausgeblendet werden müssen Sie die <tt>Flockengröße</"
+"tt> Einstellung ändern."
+
+#: inc/admin.php:189
+msgid ""
+"Make sure the value is bigger than your highest image's height and broadest "
+"image's width."
+msgstr ""
+"Stell sicher dass der Wert größer ist als die Höhe Ihres höchsten und die "
+"Breite Ihres breitesten Bildes ist."
+
+#: inc/admin.php:196
+msgid "Flakesize?"
+msgstr "Flockengröße"
+
+#: inc/admin.php:219
+msgid "Pro settings"
+msgstr "Profi Einstellungen"
+
+#: inc/admin.php:225
+msgid "Stop snow after how many seconds?"
+msgstr "Den Schneefall nach wie vielen Sekunden abstellen?"
+
+#: inc/admin.php:235
+msgid "Overall speed (timeout in milliseconds between moves)? "
+msgstr "Gesamtgeschwindigkeit (Auszeit in Millisekunden zwischen Bewegungen)?"
+
+#: inc/admin.php:255
+msgid "Maximum Wind strength "
+msgstr "Maximale Windstärke"
+
+#: inc/admin.php:275
+msgid "Maximum Falling speed"
+msgstr "Maxiale Fallgeschwindigkeit"
+
+#: inc/admin.php:295
+msgid "Show snowflakes only on pages whose URI contains"
+msgstr "Zeige nur Schneflocken auf Seiten deren Adresse folgendes enthält"
+
+#: inc/admin.php:305
+msgid ""
+"Show snowflakes only if the URI given above and the URI are equal ($_SERVER"
+"['REQUEST_URI'] == URI string)?"
+msgstr ""
+"Zeige die Schneflocken nur wenn die obige Adresse und die besucht Adresse "
+"genau gleich sind ($_SERVER['REQUEST_URI'] == URI string)?"
+
+#: inc/admin.php:318
+msgid "Hide the &quot;Powered by&quot; message in the footer?"
+msgstr "Verstecke den &quot;Unterstützung von&quot; Verweis in der Fußzeile?"
+
+#: inc/nkuttler.php:26
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen dieses plugin?"
+
+#: inc/nkuttler.php:34
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Bewerten</a> Sie es"
+
+#: inc/nkuttler.php:37
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuchen</a> Sie seine Webseite"
+
+#: inc/nkuttler.php:40
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnieren</a> Sie den feed"
+
+#: inc/nkuttler.php:43
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Spenden</a> Sie!"
+
+#: inc/nkuttler.php:46
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:49
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:52
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+"Abonnieren Sie den <a href=\"%s\">RSS feed</a> (als <a href=\"%s\">E-Mail</"
+"a>)"
+
+#: inc/nkuttler.php:56
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#: inc/nkuttler.php:57
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr ""
+"<a href=\"http://www.nicolaskuttler.de\">Übersetzt von Nicolas Kuttler</a>"
+
+#: inc/page.php:114
+#, php-format
+msgid ""
+"<a href=\"%s\">Wordpress balloons</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr ""
+"<a href=\"%s\">Wordpress Ballons</a> mit Unterstützung von <a href=\"%s"
+"\">nksnow</a>"
+
+#: inc/page.php:116
+#, php-format
+msgid ""
+"<a href=\"%s\">Wordpress snowstorm</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr ""
+"<a href=\"%s\">Wordpress Schneesturm</a> mit Unterstützung von <a href=\"%s"
+"\">nksnow</a>"
+
+#. Plugin Name of an extension
+msgid "Snow, balloons and more"
+msgstr "Schnee, Ballons und mehr"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/nksnow/"
+msgstr "http://www.nicolaskuttler.de/wordpress/nksnow/"
+
+#. Description of an extension
+msgid ""
+"Snow falling down your wordpress blog. See the <a href=\"http://www.nkuttler."
+"de/nksnow/\">live demo</a>."
+msgstr ""
+"Schnellrieseln für Ihr WordPress blog. Siehe <a href=\"http://www."
+"nicolaskuttler.de/wordpress/nksnow\">Demoseite</a>"
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"
+
+#~ msgid ""
+#~ "If you have any problems using this plugin, please have a look at the <a "
+#~ "href=\"%s\">FAQ</a>."
+#~ msgstr ""
+#~ "Sollten Sie Probleme mit diesem plugin haben, schau Sie bitte zunächst "
+#~ "ein mal die <a href=\"%s\">FAQ</a> an."

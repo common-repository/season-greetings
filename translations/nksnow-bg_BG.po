@@ -1,0 +1,191 @@
+# German translations for PACKAGE package
+# German messages for PACKAGE.
+# Copyright (C) 2009 Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# Nicolas Kuttler <wp@nicolaskuttler.de>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/nksnow\n"
+"POT-Creation-Date: 2010-11-12 22:36+0100\n"
+"PO-Revision-Date: 2010-12-10 20:37+0200\n"
+"Last-Translator: Veselin <veselin@asenov.net>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin.php:43
+#: inc/admin.php:108
+msgid "Snow and more"
+msgstr "Сняг и друго"
+
+#: inc/admin.php:113
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/admin.php:121
+msgid "Show how many snowflakes (or other objects)?"
+msgstr "Покажи, колко снежинки да се показват (или другите обекти)?"
+
+#: inc/admin.php:142
+msgid "Which of these flakes, drops, leaves and balloons do you want? "
+msgstr "Какви по вид искаш да са предметите?"
+
+#: inc/admin.php:156
+msgid "By the way if you have nice snowflakes, drops, leaves etc. feel free to submit them to me if you made them yourself."
+msgstr "Ако имате хубави снежинки, балони, листа или други, чувствайте се свободни, да ги пратите на мен, ако сте ги направили вие!"
+
+#: inc/admin.php:163
+msgid "Use the balloon mode? This will make all images float upwards."
+msgstr "Използвай мод нагоре? (Това ще направи всички картинките вместо надолу да падат, да се изкачват нагоре)."
+
+#: inc/admin.php:171
+#: inc/admin.php:326
+msgid "Yes"
+msgstr "Да"
+
+#: inc/admin.php:175
+#: inc/admin.php:330
+msgid "No"
+msgstr "Не"
+
+#: inc/admin.php:182
+#: inc/admin.php:216
+#: inc/admin.php:337
+msgid "Save changes"
+msgstr "Запази настройките"
+
+#: inc/admin.php:185
+msgid "Custom images"
+msgstr "Избрани картинки"
+
+#: inc/admin.php:187
+msgid "If you add your own images to the <tt>pics</tt> directory they will appear in the table above. To have them disappear properly when they are leaving the visible part of the browser window you may have to change the <tt>flakesize</tt> value."
+msgstr "Ако добавите ваши собствени картинки във <tt>pics</tt> папката, те ще бъдат добавени във таблицата. Ако искате да се показват хубаво, си настроете настройките само за тях."
+
+#: inc/admin.php:189
+msgid "Make sure the value is bigger than your highest image's height and broadest image's width."
+msgstr "Проверете дали стойноста за големина на картинката по-голяма от размера на изображението Ви."
+
+#: inc/admin.php:196
+msgid "Flakesize?"
+msgstr "Големина?"
+
+#: inc/admin.php:219
+msgid "Pro settings"
+msgstr "PRO настройки"
+
+#: inc/admin.php:225
+msgid "Stop snow after how many seconds?"
+msgstr "Спиране на снега след колко секунди?"
+
+#: inc/admin.php:235
+msgid "Overall speed (timeout in milliseconds between moves)? "
+msgstr "Бързина на изображенията?"
+
+#: inc/admin.php:255
+msgid "Maximum Wind strength "
+msgstr "Максимална сила на вятъра"
+
+#: inc/admin.php:275
+msgid "Maximum Falling speed"
+msgstr "Максимална скорост на падане"
+
+#: inc/admin.php:295
+msgid "Show snowflakes only on pages whose URI contains"
+msgstr "Покажи снежинки само на страници, чийто адрес съдържа"
+
+#: inc/admin.php:305
+msgid "Show snowflakes only if the URI given above and the URI are equal ($_SERVER['REQUEST_URI'] == URI string)?"
+msgstr "Покажи снежинки, само ако посочените по-горе адрес и адрес са равни ($_SERVER['REQUEST_URI'] == URI string)?"
+
+#: inc/admin.php:318
+msgid "Hide the &quot;Powered by&quot; message in the footer?"
+msgstr "Скрийте Автора\" съобщение във фуутера?"
+
+#: inc/nkuttler.php:26
+msgid "Do you like this plugin?"
+msgstr "Харесваш ли това разширение?"
+
+#: inc/nkuttler.php:34
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Гласувай</a>"
+
+#: inc/nkuttler.php:37
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Посети</a> страницата на създателя"
+
+#: inc/nkuttler.php:40
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Абонирай</a> се"
+
+#: inc/nkuttler.php:43
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Даряване</a> !"
+
+#: inc/nkuttler.php:46
+msgid "About the author"
+msgstr "Информация за автора"
+
+#: inc/nkuttler.php:49
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Моят <a href=\"%s\">Блог</a>"
+
+#: inc/nkuttler.php:52
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Абонирай се чрез <a href=\"%s\">RSS feed</a> (als <a href=\"%s\">E-Mail</a>)"
+
+#: inc/nkuttler.php:56
+msgid "My other plugins"
+msgstr "Другите ми разширения (плъгини)"
+
+#: inc/nkuttler.php:57
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.asenov.net\">Преведно от Veselin Asenov</a>"
+
+#: inc/page.php:114
+#, php-format
+msgid "<a href=\"%s\">Wordpress balloons</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr "<a href=\"%s\">Wordpress Ballons</a> направено от <a href=\"%s\">nksnow</a>"
+
+#: inc/page.php:116
+#, php-format
+msgid "<a href=\"%s\">Wordpress snowstorm</a> powered by <a href=\"%s\">nksnow</a>"
+msgstr "<a href=\"%s\">Wordpress Schneesturm</a> направено от <a href=\"%s\">nksnow</a>"
+
+#. Plugin Name of an extension
+msgid "Snow, balloons and more"
+msgstr "Сняг, балони и други"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/nksnow/"
+msgstr "http://www.nicolaskuttler.de/wordpress/nksnow/"
+
+#. Description of an extension
+msgid "Snow falling down your wordpress blog. See the <a href=\"http://www.nkuttler.de/nksnow/\">live demo</a>."
+msgstr "Падащи снежинки във твоят WordPress блог. Виж <a href=\"http://www.nkuttler.de/nksnow/\">демо</a>."
+
+#. Author of an extension
+#, fuzzy
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"
+
+#~ msgid ""
+#~ "If you have any problems using this plugin, please have a look at the <a "
+#~ "href=\"%s\">FAQ</a>."
+#~ msgstr ""
+#~ "Sollten Sie Probleme mit diesem plugin haben, schau Sie bitte zunÃ¤chst "
+#~ "ein mal die <a href=\"%s\">FAQ</a> an."
